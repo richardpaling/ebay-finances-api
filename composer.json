@@ -36,5 +36,15 @@
     },
     "autoload-dev": {
         "psr-4": { "ebay-finances-api\\Client\\Test\\" : "test/" }
-    }
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"richardpaling\\ebay-finances-api\\ServiceProvider"
+			],
+			"aliases": {
+				"Finances": "richardpaling\\ebay-finances-api\\Facade"
+			}
+		}
+	}
 }
