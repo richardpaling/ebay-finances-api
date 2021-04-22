@@ -22,7 +22,7 @@ To install the bindings via [Composer](https://getcomposer.org/), add the follow
     }
   ],
   "require": {
-    "richardpaling/ebay-finances-api": "*@dev"
+    "macropage/sdk-ebay-rest-finance": "*@dev",
   }
 }
 ```
